@@ -1,0 +1,22 @@
+{
+    "name": "augustash/module-fixuseraclresourcetree",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "Fix for the \\Magento\\User\\Block\\Role\\Tab\\Edit::getTree() method to actually show the resource tree",
+    "require": {
+    },
+    "authors":[
+        {
+            "name":"Josh Johnson",
+            "email":"josh@augustash.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Augustash\\FixUserAclResourceTree\\": ""
+        }
+    }
+}
